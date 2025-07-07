@@ -1,0 +1,216 @@
+{
+  "target_primary": "CHOICE",
+  "missing_codes": [
+    -1,
+    0,
+    99
+  ],
+  "fields": {
+    "SubjectId": {
+      "role": "meta"
+    },
+    "OriginGMT": {
+      "role": "meta"
+    },
+    "DestinationGMT": {
+      "role": "meta"
+    },
+    "Direction": {
+      "role": "meta"
+    },
+    "q17": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "q15": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "Cont Income": {
+      "role": "individual",
+      "dtype": "continuous"
+    },
+    "q19": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "q20": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "q02": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "q03": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "q14": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "q11": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "IdealDepTime": {
+      "role": "individual",
+      "dtype": "continuous"
+    },
+    "IdealArrTime": {
+      "role": "individual",
+      "dtype": "continuous"
+    },
+    "DepartureTimeHours 1": {
+      "role": "alt_attr",
+      "alt_id": "alt1",
+      "dtype": "continuous"
+    },
+    "ArrivalTimeHours 1": {
+      "role": "alt_attr",
+      "alt_id": "alt1",
+      "dtype": "continuous"
+    },
+    "FlyingTimeHours 1": {
+      "role": "alt_attr",
+      "alt_id": "alt1",
+      "dtype": "continuous"
+    },
+    "TripTimeHours 1": {
+      "role": "alt_attr",
+      "alt_id": "alt1",
+      "dtype": "continuous"
+    },
+    "Legroom 1": {
+      "role": "alt_attr",
+      "alt_id": "alt1",
+      "dtype": "discrete"
+    },
+    "AirlineFirstFlight 1": {
+      "role": "alt_attr",
+      "alt_id": "alt1",
+      "dtype": "discrete"
+    },
+    "AirlineSecondFlight 1": {
+      "role": "alt_attr",
+      "alt_id": "alt1",
+      "dtype": "discrete"
+    },
+    "AirplaneFirstFlight 1": {
+      "role": "alt_attr",
+      "alt_id": "alt1",
+      "dtype": "discrete"
+    },
+    "AirplaneSecondFlight 1": {
+      "role": "alt_attr",
+      "alt_id": "alt1",
+      "dtype": "discrete"
+    },
+    "Fare 1": {
+      "role": "alt_attr",
+      "alt_id": "alt1",
+      "dtype": "continuous"
+    },
+    "DepartureTimeHours 2": {
+      "role": "alt_attr",
+      "alt_id": "alt2",
+      "dtype": "continuous"
+    },
+    "ArrivalTimeHours 2": {
+      "role": "alt_attr",
+      "alt_id": "alt2",
+      "dtype": "continuous"
+    },
+    "FlyingTimeHours 2": {
+      "role": "alt_attr",
+      "alt_id": "alt2",
+      "dtype": "continuous"
+    },
+    "TripTimeHours 2": {
+      "role": "alt_attr",
+      "alt_id": "alt2",
+      "dtype": "continuous"
+    },
+    "Legroom 2": {
+      "role": "alt_attr",
+      "alt_id": "alt2",
+      "dtype": "discrete"
+    },
+    "AirlineFirstFlight 2": {
+      "role": "alt_attr",
+      "alt_id": "alt2",
+      "dtype": "discrete"
+    },
+    "AirlineSecondFlight 2": {
+      "role": "alt_attr",
+      "alt_id": "alt2",
+      "dtype": "discrete"
+    },
+    "AirplaneFirstFlight 2": {
+      "role": "alt_attr",
+      "alt_id": "alt2",
+      "dtype": "discrete"
+    },
+    "AirplaneSecondFlight 2": {
+      "role": "alt_attr",
+      "alt_id": "alt2",
+      "dtype": "discrete"
+    },
+    "Fare 2": {
+      "role": "alt_attr",
+      "alt_id": "alt2",
+      "dtype": "continuous"
+    },
+    "DepartureTimeHours 3": {
+      "role": "alt_attr",
+      "alt_id": "alt3",
+      "dtype": "continuous"
+    },
+    "ArrivalTimeHours 3": {
+      "role": "alt_attr",
+      "alt_id": "alt3",
+      "dtype": "continuous"
+    },
+    "FlyingTimeHours 3": {
+      "role": "alt_attr",
+      "alt_id": "alt3",
+      "dtype": "continuous"
+    },
+    "TripTimeHours 3": {
+      "role": "alt_attr",
+      "alt_id": "alt3",
+      "dtype": "continuous"
+    },
+    "Legroom 3": {
+      "role": "alt_attr",
+      "alt_id": "alt3",
+      "dtype": "discrete"
+    },
+    "AirlineFirstFlight 3": {
+      "role": "alt_attr",
+      "alt_id": "alt3",
+      "dtype": "discrete"
+    },
+    "AirlineSecondFlight 3": {
+      "role": "alt_attr",
+      "alt_id": "alt3",
+      "dtype": "discrete"
+    },
+    "AirplaneFirstFlight 3": {
+      "role": "alt_attr",
+      "alt_id": "alt3",
+      "dtype": "discrete"
+    },
+    "AirplaneSecondFlight 3": {
+      "role": "alt_attr",
+      "alt_id": "alt3",
+      "dtype": "discrete"
+    },
+    "Fare 3": {
+      "role": "alt_attr",
+      "alt_id": "alt3",
+      "dtype": "continuous"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "target_primary": "CHOICE",
+  "missing_codes": [
+    -1,
+    99
+  ],
+  "fields": {
+    "OBSID": {
+      "role": "meta"
+    },
+    "ID": {
+      "role": "meta"
+    },
+    "SCENARIO": {
+      "role": "meta"
+    },
+    "GENDER": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "A20": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "A2130": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "A3140": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "A4150": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "A5160": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "A61": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "RESIDENT": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "OINT": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "DINT": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "ODINT": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "AVEH3": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "AVEH2": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "INCM": {
+      "role": "individual",
+      "dtype": "continuous"
+    },
+    "INCH": {
+      "role": "individual",
+      "dtype": "continuous"
+    },
+    "LI": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "MI": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "HI": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "AT1": {
+      "role": "alt_attr",
+      "alt_id": "FSP",
+      "dtype": "continuous"
+    },
+    "TD1": {
+      "role": "alt_attr",
+      "alt_id": "FSP",
+      "dtype": "continuous"
+    },
+    "FEE1": {
+      "role": "alt_attr",
+      "alt_id": "FSP",
+      "dtype": "continuous"
+    },
+    "AT2": {
+      "role": "alt_attr",
+      "alt_id": "PSP",
+      "dtype": "continuous"
+    },
+    "TD2": {
+      "role": "alt_attr",
+      "alt_id": "PSP",
+      "dtype": "continuous"
+    },
+    "FEE2": {
+      "role": "alt_attr",
+      "alt_id": "PSP",
+      "dtype": "continuous"
+    },
+    "AT3": {
+      "role": "alt_attr",
+      "alt_id": "PUP",
+      "dtype": "continuous"
+    },
+    "TD3": {
+      "role": "alt_attr",
+      "alt_id": "PUP",
+      "dtype": "continuous"
+    },
+    "FEE3": {
+      "role": "alt_attr",
+      "alt_id": "PUP",
+      "dtype": "continuous"
+    }
+  }
+}

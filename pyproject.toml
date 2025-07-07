@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cagpt-mvp"
+version = "0.1.0"
+description = "Minimal Perplexity-Gated RAG framework for choice modelling"
+readme = "README.md"
+authors = [{name = "Your Name", email = "you@example.com"}]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "pandas>=2.1",
+    "numpy>=1.26",
+    "scikit-learn>=1.4",
+    "tqdm>=4.66",
+    "requests>=2.31"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}   # <—— 关键：告诉 setuptools 源码在 src 下
+packages    = ["cagpt_mvp"]  # 只暴露这一包；也可用 "find:" 自动查找

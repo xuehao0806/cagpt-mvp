@@ -1,0 +1,119 @@
+{
+  "target_primary": "Choice",
+  "missing_codes": [
+    -1,
+    -2,
+    99
+  ],
+  "fields": {
+    "ID": {
+      "role": "meta"
+    },
+    "age": {
+      "role": "individual",
+      "dtype": "continuous"
+    },
+    "Gender": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "Income": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "NbChild": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "NbCar": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "CarAvail": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "TypeCommune": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "UrbRur": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "LangCode": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "TripPurpose": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "Envir01": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "Envir02": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "Mobil01": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "Mobil02": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "TimePT": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "continuous"
+    },
+    "WalkingTimePT": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "continuous"
+    },
+    "WaitingTimePT": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "continuous"
+    },
+    "CostPT": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "continuous"
+    },
+    "MarginalCostPT": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "continuous"
+    },
+    "NbTransf": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "discrete"
+    },
+    "TimeCar": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    },
+    "CostCarCHF": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    },
+    "CostCar": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    },
+    "distance_km": {
+      "role": "alt_attr",
+      "alt_id": "generic",
+      "dtype": "continuous"
+    }
+  }
+}

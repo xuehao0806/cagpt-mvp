@@ -1,0 +1,123 @@
+{
+  "target_primary": "CHOICE",
+  "missing_codes": [
+    -1,
+    99
+  ],
+  "fields": {
+    "ID": {
+      "role": "meta"
+    },
+    "GROUP": {
+      "role": "meta"
+    },
+    "SURVEY": {
+      "role": "meta"
+    },
+    "SP": {
+      "role": "meta"
+    },
+    "ORIGIN": {
+      "role": "meta"
+    },
+    "DEST": {
+      "role": "meta"
+    },
+    "PURPOSE": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "FIRST": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "TICKET": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "WHO": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "LUGGAGE": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "AGE": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "MALE": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "INCOME": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "GA": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "TRAIN_AV": {
+      "role": "alt_attr",
+      "alt_id": "train",
+      "dtype": "discrete"
+    },
+    "CAR_AV": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "discrete"
+    },
+    "SM_AV": {
+      "role": "alt_attr",
+      "alt_id": "sm",
+      "dtype": "discrete"
+    },
+    "TRAIN_TT": {
+      "role": "alt_attr",
+      "alt_id": "train",
+      "dtype": "continuous"
+    },
+    "TRAIN_CO": {
+      "role": "alt_attr",
+      "alt_id": "train",
+      "dtype": "continuous"
+    },
+    "TRAIN_HE": {
+      "role": "alt_attr",
+      "alt_id": "train",
+      "dtype": "continuous"
+    },
+    "SM_TT": {
+      "role": "alt_attr",
+      "alt_id": "sm",
+      "dtype": "continuous"
+    },
+    "SM_CO": {
+      "role": "alt_attr",
+      "alt_id": "sm",
+      "dtype": "continuous"
+    },
+    "SM_HE": {
+      "role": "alt_attr",
+      "alt_id": "sm",
+      "dtype": "continuous"
+    },
+    "SM_SEATS": {
+      "role": "alt_attr",
+      "alt_id": "sm",
+      "dtype": "discrete"
+    },
+    "CAR_TT": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    },
+    "CAR_CO": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    }
+  }
+}

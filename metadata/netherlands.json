@@ -1,0 +1,127 @@
+{
+  "target_primary": "choice",
+  "target_secondary": "rp_choice",
+  "missing_codes": [
+    -1,
+    0.0
+  ],
+  "fields": {
+    "id": {
+      "role": "meta"
+    },
+    "rp": {
+      "role": "meta"
+    },
+    "sp": {
+      "role": "meta"
+    },
+    "purpose": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "arrival_time": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "gender": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "npersons": {
+      "role": "individual",
+      "dtype": "continuous"
+    },
+    "age": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "employ_status": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "mainearn": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "rail_ivtt": {
+      "role": "alt_attr",
+      "alt_id": "rail",
+      "dtype": "continuous"
+    },
+    "rail_cost": {
+      "role": "alt_attr",
+      "alt_id": "rail",
+      "dtype": "continuous"
+    },
+    "rail_transfers": {
+      "role": "alt_attr",
+      "alt_id": "rail",
+      "dtype": "discrete"
+    },
+    "rp_transfer": {
+      "role": "alt_attr",
+      "alt_id": "rail",
+      "dtype": "discrete"
+    },
+    "rail_comfort": {
+      "role": "alt_attr",
+      "alt_id": "rail",
+      "dtype": "discrete"
+    },
+    "rp_rail_ovt": {
+      "role": "alt_attr",
+      "alt_id": "rail",
+      "dtype": "continuous"
+    },
+    "rail_acc_mode": {
+      "role": "alt_attr",
+      "alt_id": "rail",
+      "dtype": "discrete"
+    },
+    "rail_egr_mode": {
+      "role": "alt_attr",
+      "alt_id": "rail",
+      "dtype": "discrete"
+    },
+    "seat_status": {
+      "role": "alt_attr",
+      "alt_id": "rail",
+      "dtype": "discrete"
+    },
+    "rail_acc_time": {
+      "role": "alt_attr",
+      "alt_id": "rail",
+      "dtype": "continuous"
+    },
+    "rail_egr_time": {
+      "role": "alt_attr",
+      "alt_id": "rail",
+      "dtype": "continuous"
+    },
+    "car_ivtt": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    },
+    "car_cost": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    },
+    "rp_car_ovt": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    },
+    "car_parking_fee": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "discrete"
+    },
+    "car_walk_time": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    }
+  }
+}

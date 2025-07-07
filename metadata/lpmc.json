@@ -1,0 +1,144 @@
+{
+  "target_primary": "travel_mode",
+  "target_secondary": "fueltype",
+  "missing_codes": [
+    -1,
+    99,
+    9999
+  ],
+  "fields": {
+    "trip_id": {
+      "role": "meta"
+    },
+    "household_id": {
+      "role": "meta"
+    },
+    "person_n": {
+      "role": "meta"
+    },
+    "trip_n": {
+      "role": "meta"
+    },
+    "survey_year": {
+      "role": "meta"
+    },
+    "travel_year": {
+      "role": "meta"
+    },
+    "travel_month": {
+      "role": "meta"
+    },
+    "travel_date": {
+      "role": "meta"
+    },
+    "day_of_week": {
+      "role": "meta"
+    },
+    "purpose": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "bus_scale": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "age": {
+      "role": "individual",
+      "dtype": "continuous"
+    },
+    "female": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "driving_license": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "car_ownership": {
+      "role": "individual",
+      "dtype": "discrete"
+    },
+    "dur_walking": {
+      "role": "alt_attr",
+      "alt_id": "walk",
+      "dtype": "continuous"
+    },
+    "dur_cycling": {
+      "role": "alt_attr",
+      "alt_id": "cycle",
+      "dtype": "continuous"
+    },
+    "dur_pt_access": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "continuous"
+    },
+    "dur_pt_rail": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "continuous"
+    },
+    "dur_pt_bus": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "continuous"
+    },
+    "dur_pt_int": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "continuous"
+    },
+    "pt_interchanges": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "discrete"
+    },
+    "cost_transit": {
+      "role": "alt_attr",
+      "alt_id": "pt",
+      "dtype": "continuous"
+    },
+    "dur_driving": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    },
+    "cost_driving_fuel": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    },
+    "cost_driving_ccharge": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    },
+    "driving_traffic_percent": {
+      "role": "alt_attr",
+      "alt_id": "car",
+      "dtype": "continuous"
+    },
+    "distance": {
+      "role": "alt_attr",
+      "alt_id": "generic",
+      "dtype": "continuous"
+    }
+  },
+  "utility_spec": {
+    "ASC": ["walk", "cycle", "pt"],
+    "cost_transit":   ["pt"],
+    "cost_driving_fuel": ["car"],
+    "cost_driving_ccharge": ["car"],
+    "dur_pt_total": ["pt"],
+    "dur_driving":   ["car"],
+    "dur_walking":   ["walk"],
+    "dur_cycling":   ["cycle"]
+  },
+
+  "alt_code_map": {
+  "1": "walk",
+  "2": "cycle",
+  "3": "pt",
+  "4": "car"
+  }
+}
